@@ -22,42 +22,10 @@
         tools:ignore="TextSizeCheck,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/recuperaPassword_textView"
-        android:layout_width="69dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="36dp"
-        android:fontFamily="@font/quicksand_bold"
-        android:text="@string/recupera_contraseña"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#8C5CF1"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.391"
-        app:layout_constraintStart_toEndOf="@+id/forgotPassword_textView"
-        app:layout_constraintTop_toBottomOf="@+id/github_bttn"
-        tools:ignore="TextSizeCheck,VisualLintBounds" />
-
-    <TextView
-        android:id="@+id/signUp_textView"
-        android:layout_width="82dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/quicksand_bold"
-        android:text="@string/signup"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#8C5CF1"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.441"
-        app:layout_constraintStart_toEndOf="@+id/noCuenta_textView"
-        app:layout_constraintTop_toBottomOf="@+id/recuperaPassword_textView"
-        tools:ignore="TextSizeCheck,VisualLintBounds" />
-
-    <TextView
         android:id="@+id/noCuenta_textView"
         android:layout_width="196dp"
         android:layout_height="22dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/quicksand_medium"
         android:text="@string/no_tienes_cuenta"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -138,7 +106,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_codebyte"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/app_name"
@@ -229,5 +197,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_bttn" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/recupera_contraseña"
+        android:textColor="#7C4DFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toEndOf="@+id/forgotPassword_textView"
+        app:layout_constraintTop_toBottomOf="@+id/github_bttn"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/signup"
+        android:textColor="#7C4DFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/noCuenta_textView"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

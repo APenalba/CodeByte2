@@ -11,9 +11,7 @@
     <string name="no_tienes_cuenta">Aún no tienes cuenta?</string>
     <string name="recupera_contraseña">Recupera</string>
     <string name="signup">Registrate</string>
-
-
-
-
+    <string name="terminos">Acepto los términos y la política de privacidad.</string>
+    <string name="ya_cuenta">Ya tienes cuenta?</string>
 
 </resources>
