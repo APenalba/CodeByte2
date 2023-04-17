@@ -12,13 +12,13 @@
         android:theme="@style/Theme.CodeByte"
         tools:targetApi="31">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".usecases.profile.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".usecases.register.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".usecases.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

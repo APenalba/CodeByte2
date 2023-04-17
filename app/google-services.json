@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254477212828",
+    "project_id": "codebyte-1",
+    "storage_bucket": "codebyte-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254477212828:android:74b547691fc91127022159",
+        "android_client_info": {
+          "package_name": "edu.ub.pis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254477212828-aqq7l74jbfqjmpprv01micalq7ovubjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUzuCJAhPNO3y1oDPPiuq5gSnWhzfBksE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254477212828-aqq7l74jbfqjmpprv01micalq7ovubjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

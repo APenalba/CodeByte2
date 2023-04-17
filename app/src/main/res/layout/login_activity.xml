@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".usecases.login.LoginActivity">
 
     <TextView
         android:id="@+id/forgotPassword_textView"
@@ -40,7 +40,7 @@
         android:id="@+id/login_textView"
         android:layout_width="253dp"
         android:layout_height="60dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="38dp"
         android:fontFamily="@font/quicksand_medium"
         android:text="@string/login"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
         tools:ignore="TextSizeCheck" />
 
     <TextView
@@ -69,13 +69,13 @@
         android:id="@+id/email_textView"
         android:layout_width="241dp"
         android:layout_height="25dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/quicksand_bold"
         android:text="@string/email"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introduceDatos_textView"
         tools:ignore="TextSizeCheck" />
@@ -84,13 +84,13 @@
         android:id="@+id/password_textView"
         android:layout_width="241dp"
         android:layout_height="25dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="432dp"
         android:fontFamily="@font/quicksand_bold"
         android:text="@string/password"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck" />
@@ -125,7 +125,7 @@
         android:id="@+id/email_emailText"
         android:layout_width="337dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
