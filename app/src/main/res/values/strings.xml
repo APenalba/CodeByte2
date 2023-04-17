@@ -13,5 +13,20 @@
     <string name="signup">Registrate</string>
     <string name="terminos">Acepto los términos y la política de privacidad.</string>
     <string name="ya_cuenta">Ya tienes cuenta?</string>
+    <string name="username">NombreDeUsuario</string>
+    <string name="correotest">user@correo.com</string>
+    <string name="cambiar_nombre">Cambiar Nombre</string>
+    <string name="cambiar_contraseña">Cambiar Contraseña</string>
+    <string name="cambiar_correo">Cambiar Correo</string>
+    <string name="problem_report">Algún problema? Háznoslo saber:</string>
+    <string name="textbox_problem_report">Indicanos tu problema</string>
+    <string name="envia">Envía</string>
+    <string-array name="idiomas">
+        <item>Cambiar idioma</item>
+        <item>Castellano</item>
+        <item>Catalán</item>
+    </string-array>
+
+
 
 </resources>

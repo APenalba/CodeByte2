@@ -7,22 +7,22 @@
     tools:context=".RegisterActivity">
 
     <TextView
-        android:id="@+id/login_textView2"
+        android:id="@+id/signup_textView"
         android:layout_width="253dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/quicksand_medium"
         android:text="@string/signup"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/password_textView2"
+        android:id="@+id/signup_password_textView"
         android:layout_width="241dp"
         android:layout_height="25dp"
         android:layout_marginBottom="28dp"
@@ -45,7 +45,7 @@
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/password_textView2"
+        app:layout_constraintBottom_toTopOf="@+id/signup_password_textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_textView2"
+        app:layout_constraintTop_toBottomOf="@+id/signup_textView"
         app:layout_constraintVertical_bias="0.977"
         tools:ignore="TextSizeCheck" />
 
