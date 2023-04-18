@@ -1,4 +1,4 @@
-package edu.ub.pis.usecases.profile;
+package edu.ub.pis.view.profile;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "254477212828-aqq7l74jbfqjmpprv01micalq7ovubjg.apps.googleusercontent.com",
+          "client_id": "254477212828-dk8ddk4kvjrp4qho91tthiferb77i0t3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ub.pis",
+            "certificate_hash": "dace21782d025c10597e5dfe239ed2000b8bd2ee"
+          }
+        },
+        {
+          "client_id": "254477212828-jl72al2cn5tk3t3vphpa7v645jc71tnc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],

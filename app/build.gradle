@@ -4,6 +4,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\apena\\keystore\\codebyte_keystore.jks')
+            storePassword 'Eqqr1wuhYG9$NNRKQ@AL'
+            keyAlias 'key0'
+            keyPassword 'Eqqr1wuhYG9$NNRKQ@AL'
+        }
+    }
     namespace 'edu.ub.pis'
     compileSdk 33
 
@@ -40,9 +48,10 @@ dependencies {
 
 
     //---------------------------------------- FIREBASE AUTH ----------------------------------------
-    implementation platform('com.google.firebase:firebase-bom:31.3.0')
+    implementation platform('com.google.firebase:firebase-bom:31.5.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
     //-----------------------------------------------------------------------------------------------
 }

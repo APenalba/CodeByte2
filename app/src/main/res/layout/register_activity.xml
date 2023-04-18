@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".usecases.register.RegisterActivity">
+    tools:context=".view.register.RegisterActivity">
 
     <TextView
         android:id="@+id/signup_textView"
@@ -79,7 +79,7 @@
         android:hint="@string/password"
         android:importantForAutofill="no"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/reg_login_bttn"
+        app:layout_constraintBottom_toTopOf="@+id/reg_signup_bttn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +87,7 @@
         tools:ignore="DuplicateSpeakableTextCheck,UnknownIdInLayout" />
 
     <Button
-        android:id="@+id/reg_login_bttn"
+        android:id="@+id/reg_signup_bttn"
         android:layout_width="343dp"
         android:layout_height="52dp"
         android:layout_marginTop="20dp"
@@ -102,11 +102,11 @@
         tools:ignore="DuplicateSpeakableTextCheck,UnknownIdInLayout,VisualLintButtonSize" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/terminosCondiciones_checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/terminos"
-        app:layout_constraintBottom_toTopOf="@+id/reg_login_bttn"
+        app:layout_constraintBottom_toTopOf="@+id/reg_signup_bttn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_password_editText"
@@ -123,11 +123,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reg_login_bttn"
+        app:layout_constraintTop_toBottomOf="@+id/reg_signup_bttn"
         app:layout_constraintVertical_bias="0.118" />
 
     <Button
-        android:id="@+id/iniciar_sesion_btn"
+        android:id="@+id/reg_login_bttn"
         style="@style/Widget.Material3.Button.TextButton"
         android:layout_width="153dp"
         android:layout_height="51dp"
@@ -142,7 +142,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reg_login_bttn"
+        app:layout_constraintTop_toBottomOf="@+id/reg_signup_bttn"
         app:layout_constraintVertical_bias="0.046"
         tools:ignore="TextSizeCheck" />
 
