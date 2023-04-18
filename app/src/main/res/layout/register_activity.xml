@@ -128,18 +128,22 @@
 
     <Button
         android:id="@+id/iniciar_sesion_btn"
+        style="@style/Widget.Material3.Button.TextButton"
         android:layout_width="153dp"
         android:layout_height="51dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add"
         android:fontFamily="@font/quicksand_bold"
         android:text="@string/login"
         android:textColor="#8C5CF1"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_login_bttn"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintVertical_bias="0.046"
+        tools:ignore="TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
