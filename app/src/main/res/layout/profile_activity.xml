@@ -12,6 +12,7 @@
         android:layout_height="31dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/cd_PROFILEACTIVITY_logo_profile_asset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -26,14 +27,14 @@
         android:layout_height="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/cd_PROFILEACTIVITY_logo_menu_asset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/logo_profile_asset"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.001"
-        app:srcCompat="@drawable/icon_menu"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/icon_menu" />
 
     <ImageView
         android:id="@+id/profile_picture"
@@ -42,29 +43,28 @@
         android:layout_marginStart="130dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="130dp"
+        android:contentDescription="@string/cd_PROFILEACTIVITY_profile_picture"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/perfil_ale"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/perfil_ale" />
 
     <ImageView
         android:id="@+id/logo_add_photo_asset"
         android:layout_width="31dp"
         android:layout_height="31dp"
         android:layout_marginStart="8dp"
+        android:contentDescription="@string/cd_PROFILEACTIVITY_logo_add_photo_asset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/profile_picture"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.106"
-        app:srcCompat="@drawable/icon_add_camera"
-        android:contentDescription="TODO"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/icon_add_camera" />
 
     <TextView
         android:id="@+id/username_textView"
@@ -76,7 +76,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_picture"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/correo_textView"
@@ -90,7 +91,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username_textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btn_nombre"
@@ -104,7 +106,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/correo_textView"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.024"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btn_contrasena"
@@ -113,12 +116,14 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#9C5CF5"
         android:text="@string/cambiar_contraseña"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_correo"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btn_contrasena2"
@@ -131,7 +136,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText_problem"
-        app:layout_constraintVertical_bias="0.084" />
+        app:layout_constraintVertical_bias="0.084"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btn_correo"
@@ -145,7 +151,8 @@
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_nombre"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/report_problem_textView"
@@ -178,7 +185,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/report_problem_textView"
         app:layout_constraintVertical_bias="0.005"
-        tools:ignore="SmallSp"
+        tools:ignore="LabelFor,SmallSp"
         android:autofillHints="" />
 
     <Spinner
